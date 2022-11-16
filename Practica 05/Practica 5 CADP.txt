@@ -1,0 +1,16 @@
+1) 4 bytes - 4 bytes - 4 bytes - 51 bytes -  51 bytes
+2) 4 bytes - 16 bytes - 4 bytes - 16 bytes -  16 bytes - 16 bytes
+3) 4 bytes - 20.000 bytes - 20.000 bytes - 20.000 bytes
+4.a) Error no se puede asignar valor a pc^ sin antes haber reservado espacio en memoria con new(pc)
+4.b) 51 bytes - Un nuevo nombre - Ya no puede acceder a pc^ porque uso el dispose(pc) en la linea anterior.
+4.c) un texto - otro texto
+4.d) un texto - un texto
+5.I)400.000 bytes
+5.II) 399.928 bytes (se resto 72 bytes)  del new(ptrEmpleado)
+5.III) 399.928 bytes
+5.IV) 400.000 bytes (se sumo 72 bytes) por el dispose(ptrEmpleado)
+8.a) Hasta la linea 18: 46 bytes de memoria estatica
+8.b) Hasta la linea 20: 46 bytes de memoria estatica
+8.c) Hasta la linea 23: 46 bytes de memoria estatica y 40 de memoria dinamica
+8.d) Hasta la linea 11: 46 bytes de memoria estatica y 84 de memoria dinamica
+8.e) Hasta la linea 25: 46 bytes de memoria estatica y 40 de memoria dinamica
